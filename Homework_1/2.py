@@ -3,8 +3,9 @@ b = float(input("Vvedite b"))
 c = float(input("Vvedite c"))
 f = float(input("Vvedite f"))
 d = float(input("Vvedite d"))
+r = f - d
 
-if f - d:
+if r:
     print((a * b - c) / (f - d))
 else:
     print("delit' na nil' nel'zia")
