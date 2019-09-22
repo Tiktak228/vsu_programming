@@ -6,6 +6,6 @@ d = float(input("Vvedite d"))
 r = f - d
 
 if r:
-    print((a * b - c) / (f - d))
+    print((a * b - c) / r)
 else:
     print("delit' na nil' nel'zia")
