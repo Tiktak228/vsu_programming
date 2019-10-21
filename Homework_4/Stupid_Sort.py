@@ -1,11 +1,11 @@
-def stupidSort(data):
+def stupid_sort(data):
     i = 0
     n = len(data) - 1
     while i < n:
-        if data[i+1] < data[i]:
+        if data[i + 1] < data[i]:
             m = data[i]
-            data[i] = data[i+1] 
-            data[i+1] = m
+            data[i] = data[i + 1] 
+            data[i + 1] = m
             i = 0
         else:
             i += 1
@@ -13,8 +13,7 @@ def stupidSort(data):
 
 element = []
 b = int(input("Введите кол-во элементов массива"))
-while b:
+for x in b:
     a = input("Введите элемент массива")
     element.append(a)
-    b -= 1
-print(stupidSort(element))
+print(stupid_sort(element))
