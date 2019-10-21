@@ -3,9 +3,7 @@ def stupid_sort(data):
     n = len(data) - 1
     while i < n:
         if data[i + 1] < data[i]:
-            m = data[i]
-            data[i] = data[i + 1] 
-            data[i + 1] = m
+            data[i], data[i + 1] = data[i + 1], data[i]
             i = 0
         else:
             i += 1
