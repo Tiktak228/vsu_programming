@@ -16,5 +16,5 @@ b = int(input("Введите кол-во элементов массива"))
 while b:
     a = input("Введите элемент массива")
     element.append(a)
-    b = b - 1
+    b -= 1
 print(stupidSort(element))
