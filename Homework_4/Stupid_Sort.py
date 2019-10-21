@@ -13,7 +13,7 @@ def stupid_sort(data):
 
 element = []
 b = int(input("Введите кол-во элементов массива"))
-for x in b:
+for x in range(b):
     a = input("Введите элемент массива")
     element.append(a)
 print(stupid_sort(element))
